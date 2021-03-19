@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/quicksand/v22/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkKEo58a-xDwxUD2GFw.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_gPq_ROW-AJi8SJQt.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4VrMDrMfJh1Zyc61YA.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+h1{
+
+    font-family: 'Quicksand', sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform:uppercase;
+    color: black;
+    text-align: center;
+}
+
+table{
+    border: 3px  solid grey;
+    padding: 5px;
+    width:70%;
+    border-radius: 5%;
+    background-color: goldenrod;
+}
+
+thead{
+    font-family: 'Roboto Mono',  sans-serif, 'Quicksand';
+    font-size: 18px;
+    text-align:center;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 800;
+}
+
+tbody{
+    font-family: 'Comfortaa';
+    font-size: 12px;
+    text-align:left;
+    font-style: bolder;
+    border: 2px solid grey;
+    background-color:goldenrod;
+}
+
+td{
+    border: 1px dashed;
+    border-color:grey;
+    border-collapse: collapse;
+    padding: 2px;
+    border-radius: 2%;
+}
+
+body{
+    background-color:rgb(173, 172, 172) ;
+}
+
